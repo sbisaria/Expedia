@@ -79,6 +79,7 @@ nav>li>a {
 	border-radius: 4px;
 	padding: 20px 20px;
 }
+
 @media(min-width:900px){
 	ul>li{
 		display: -webkit-flex;
@@ -89,9 +90,11 @@ nav>li>a {
 		flex-shrink: 1;
 	}
 }
+
 .nav>li>a:focus, .nav>li>a:hover {
 	background-color: coral;
 }
+
 .nav-pills>li+li {
 	margin-left: 10px;
 }
@@ -126,7 +129,7 @@ nav>li>a {
  label {
  	color:white;
  }
-/*.col-md-10 .container-fluid form .row col-md-2 button*/
+ 
 .btn-warning {
 	margin-bottom: 10px;
 }
